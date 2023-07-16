@@ -18,18 +18,15 @@ function App() {
   function headerDropDownHandler() {
     if (window.innerWidth <= 605) {
       setNeedHideFooterItems(true)
-      console.log('if')
     } else setNeedHideFooterItems(false)
 
     if (window.innerWidth <= 767 && window.innerWidth >= 505) {
       setNeedDropDowm(true)
-      console.log('if2')
     } else setNeedDropDowm(false)
   }
   useEffect(() => {
     headerDropDownHandler()
 
-    // window.addEventListener('resize', getInnerWidthHandler)
   })
   return (
     <div className='App'>
