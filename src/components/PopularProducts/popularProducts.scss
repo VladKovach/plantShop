@@ -1,0 +1,107 @@
+.popular-products__wrapper {
+  width: 100%;
+  position: relative;
+  & .popular {
+    &-container {
+      margin: 150px auto;
+      max-width: 1180px;
+      position: relative;
+      padding: 0 20px;
+    }
+    &-background__image {
+      position: absolute;
+      z-index: -1;
+      left: -13.15%;
+      top: -255px;
+      @media (max-width: 1180px) {
+        left: calc(-560px - (150 - 560) * ((100vw - 320px) / (1180 - 320)));
+        top: 45px;
+      }
+      @media (max-width: 777px) {
+        top: 460px;
+      }
+    }
+    &-header {
+      margin-bottom: 32px;
+
+      &__title {
+        color: #014b40;
+        font-size: 36px;
+        font-weight: 500;
+        line-height: 140%;
+      }
+      &__subTitle-section {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 12px;
+        &__description {
+          color: #7d7d7d;
+          font-weight: 300;
+          line-height: 165%;
+          letter-spacing: 0.64px;
+          max-width: 48.2%;
+        }
+        &__btn {
+          cursor: pointer;
+          display: flex;
+          width: 118px;
+          height: 40px;
+          justify-content: center;
+          align-items: center;
+          border: 1px solid #014b40;
+          background: transparent;
+          color: #014b40;
+          font-size: 16px;
+          font-weight: 500;
+          line-height: normal;
+        }
+      }
+    }
+    &-gallery {
+      display: flex;
+      flex-wrap: wrap;
+      width: 1180px;
+      @media (max-width: 1180px) {
+        width: inherit;
+        max-width: 1180px;
+        justify-content: center;
+      }
+      &__img-withIcons {
+        position: relative;
+
+        &__icons {
+          position: absolute;
+          z-index: 5;
+          left: 70px;
+          top: 200px;
+          @media (max-width:1180px) {
+            left: 84px;
+          };
+          & svg {
+            background: #fff;
+            width: 40px;
+            height: 40px;
+            padding: 8px;
+            cursor: pointer;
+
+            flex-shrink: 0;
+            &:not(:last-child) {
+              margin-right: 20px;
+            }
+          }
+        }
+      }
+    }
+    &-backGround2__image{
+      position: absolute;
+      z-index: -10;
+      right: 0;
+      top: 930px;
+      @media (max-width:680px) {
+        right: -150px;
+        top: 980px;
+      };
+    }
+  }
+
+}

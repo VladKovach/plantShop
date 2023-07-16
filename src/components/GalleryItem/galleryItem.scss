@@ -1,0 +1,23 @@
+.gallery-item {
+  margin: 0 28px 20px  0;
+  text-align: center;
+  @media (max-width: 1180px) {
+    margin: 0 14px 0 14px;
+  }
+  &__img{
+    margin-bottom: 20px;
+  }
+  &__name {
+    color: #014b40;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 140%;
+  }
+  &__description {
+    color: #111;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 140%;
+    margin-top: 8px;
+  }
+}

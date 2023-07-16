@@ -1,0 +1,144 @@
+.customers-section__wrapper {
+  width: 100%;
+
+  & .customers {
+    &-container {
+      margin: 150px auto;
+      max-width: 1180px;
+      padding: 0 20px;
+    }
+    &-header__section {
+      & .header {
+        &-title {
+          color: #014b40;
+          font-size: 36px;
+          font-weight: 500;
+          line-height: 140%;
+        }
+        &-description {
+          margin-top: 12px;
+          color: #7d7d7d;
+          font-weight: 300;
+          line-height: 165%;
+          letter-spacing: 0.64px;
+          max-width: 48.2%;
+        }
+      }
+    }
+    &-info__wrapper {
+      display: flex;
+      margin-top: 62px;
+      position: relative;
+      @media (max-width: 905px) {
+        flex-direction: column;
+        align-items: center;
+      }
+      & .customersInfo {
+        &-fotos {
+          @media (max-width: 626px) {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+          }
+          & .customers-fotos {
+            &__container {
+              position: relative;
+
+              width: 614px;
+              height: 350px;
+              @media (max-width: 626px) {
+                width: calc(280px + (614 - 280) * ((100vw - 320px) / (626 - 320)));
+              }
+              &-backGround__image {
+                z-index: -5;
+                position: absolute;
+                left: -140px;
+                bottom: -20px;
+                height: 550px;
+                width: 900px;
+                @media (max-width: 626px) {
+                  // bottom: calc(-20px + (40 - 20) * ((100vw - 320px) / (626 - 320)));
+                  left: calc(-210px - (140 - 210) * ((100vw - 320px) / (626 - 320)));
+                  width: calc(700px + (900 - 700) * ((100vw - 320px) / (626 - 320)));
+                }
+              }
+              & .image {
+                &-1 {
+                  position: absolute;
+                  top: 174px;
+                  left: 0;
+                  width: 176px;
+                  height: 176px;
+                  border: none;
+                  @media (max-width: 626px) {
+                    width: calc(136px + (176 - 136) * ((100vw - 320px) / (626 - 320)));
+                    height: calc(136px + (176 - 136) * ((100vw - 320px) / (626 - 320)));
+                    top: calc(236px + (174 - 236) * ((100vw - 320px) / (626 - 320)));
+                    left: calc(20px + (0 - 20) * ((100vw - 320px) / (626 - 320)));
+                  }
+                }
+                &-2 {
+                  position: absolute;
+                  left: 176px;
+                  top: 0;
+                  width: 262px;
+                  height: 262px;
+                  border: 6px solid #014b40;
+                  @media (max-width: 626px) {
+                    width: calc(222px + (262 - 222) * ((100vw - 320px) / (626 - 320)));
+                    height: calc(222px + (262 - 222) * ((100vw - 320px) / (626 - 320)));
+                    left: calc(30px + (174 - 30) * ((100vw - 320px) / (626 - 320)));
+                  }
+                }
+                &-3 {
+                  position: absolute;
+                  right: 0px;
+                  top: 174px;
+                  width: 176px;
+                  height: 176px;
+                  border: none;
+                  @media (max-width: 626px) {
+                    width: calc(136px + (176 - 136) * ((100vw - 320px) / (626 - 320)));
+                    height: calc(136px + (176 - 136) * ((100vw - 320px) / (626 - 320)));
+                    top: calc(236px + (174 - 236) * ((100vw - 320px) / (626 - 320)));
+                  }
+                }
+              }
+            }
+          }
+          &__switcher {
+            margin-top: 48px;
+          }
+        }
+        &-customers__quote-wrapper {
+          margin: auto 0 auto 68px;
+          @media (max-width: 905px) {
+            margin: 50px 0 0 50px;
+          }
+
+          & .quote {
+            &-description {
+              color: #000;
+              font-weight: 300;
+              line-height: 165%;
+              margin: 20px 0;
+            }
+            &-authors__name {
+              color: #014b40;
+              font-size: 20px;
+              font-weight: 500;
+              line-height: 140%;
+            }
+            &-authors__position {
+              color: #111;
+              font-weight: 300;
+              line-height: 140%;
+              margin-top: 8px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

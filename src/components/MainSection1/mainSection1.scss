@@ -1,0 +1,109 @@
+.main-section1__wrapper {
+  background: url(main-plant-picture.jpg) lightgray 50% / cover no-repeat;
+  height: 722px;
+  background-position: 25% 75%;
+  display: flex;
+  & .section1 {
+    &-overPage__img{
+      position: absolute;
+      z-index: 10;
+      right: 0;
+      top: 100px;
+      @media (max-width:1566px) {
+        right: calc(-300px - (0 - 300) * ((100vw - 320px) / (1566 - 320)));;
+      };
+      // @media (max-width:486px) {
+      //   right: -330px;
+      // };
+
+      
+    }
+    &-info {
+      position: relative;
+      top: 160px;
+      left: 46.5%;
+      display: flex;
+      flex-direction: column;
+      max-width: 522px;
+      transition: 0.4s ease-in-out;
+
+      &.down {
+        top: 395px;
+        left: 4%;
+
+        & .section1-info__title {
+          color: #014b40;
+        }
+        & .section1-info__subTitle {
+          color: white;
+        }
+        & .whiten {
+          color: white;
+        }
+      }
+      @media (max-width: 1050px) {
+        max-width: 422px;
+      }
+      @media (max-width: 926px) {
+        top: 200px;
+      }
+      @media (max-width: 767px) {
+        left: 36.5%;
+        max-width: 322px;
+      }
+      @media (max-width: 505px) {
+        top: 395px;
+        left: 4%;
+        & .whiten {
+          color: white;
+        }
+      }
+      &__title {
+        color: white;
+        font-size: 48px;
+        font-weight: 600;
+        line-height: 140%;
+        @media (max-width: 1050px) {
+          font-size: 36px;
+        }
+        @media (max-width: 767px) {
+          font-size: 30px;
+        }
+        @media (max-width: 505px) {
+          color: #014b40;
+        }
+      }
+      &__subTitle {
+        color: #e7e7e7;
+        font-family: Poppins;
+        font-weight: 300;
+        line-height: 165%;
+        letter-spacing: 0.64px;
+        margin-top: 20px;
+        @media (max-width: 767px) {
+          color: #014b40;
+          font-weight: 600;
+          margin-top: 10px;
+        }
+        @media (max-width: 505px) {
+          color: white;
+          font-weight: 300;
+        }
+      }
+      &__btn {
+        width: 161px;
+        height: 56px;
+        background: #014b40;
+        padding: 16px 32px;
+        text-align: center;
+        color: #fff;
+        font-weight: 500;
+        line-height: normal;
+        margin-top: 48px;
+        @media (max-width: 767px) {
+          margin-top: 28px;
+        }
+      }
+    }
+  }
+}
