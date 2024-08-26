@@ -13,6 +13,7 @@
     "sass": "^1.63.6",
     "web-vitals": "^2.1.4"
   },
+  "homepage": "https://vladkovach.github.io/plant_shop.github.io/",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
