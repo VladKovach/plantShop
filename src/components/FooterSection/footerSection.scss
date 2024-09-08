@@ -130,11 +130,33 @@
           }
         }
         &-list {
+        width: 130px;
+
           &__item {
             color: #afadb5;
             font-weight: 300;
             line-height: 180%;
             margin-top: 20px;
+            transition: color 0.3s ease, transform 0.3s ease;
+            &:hover {
+              color: #fff; 
+              transform: translateX(5px);
+              cursor: pointer;
+            } 
+            &:before {
+              content: "";
+              display: inline-block;
+              width: 0;
+              height: 2px;
+              background-color: #fff;
+              vertical-align: middle;
+              margin-right: 3px;
+              transition: width 0.3s ease; 
+            }
+
+            &:hover:before {
+              width: 15px; 
+            }
           }
         }
       }
