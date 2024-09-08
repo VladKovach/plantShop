@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/plant_shop.github.io/static/css/main.bf69a293.css",
+    "main.js": "/plant_shop.github.io/static/js/main.b0ac02d7.js",
+    "static/media/main-plant-picture.jpg": "/plant_shop.github.io/static/media/main-plant-picture.f98d0b9fe01b000684db.jpg",
+    "static/media/Inter-Medium.ttf": "/plant_shop.github.io/static/media/Inter-Medium.6dcbc9bed1ec438907ee.ttf",
+    "static/media/Poppins-Medium.ttf": "/plant_shop.github.io/static/media/Poppins-Medium.673ed42382ab264e0bf5.ttf",
+    "static/media/backGround-forDiscount.jpg": "/plant_shop.github.io/static/media/backGround-forDiscount.7f765304ce0016aeb76c.jpg",
+    "index.html": "/plant_shop.github.io/index.html",
+    "main.bf69a293.css.map": "/plant_shop.github.io/static/css/main.bf69a293.css.map",
+    "main.b0ac02d7.js.map": "/plant_shop.github.io/static/js/main.b0ac02d7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bf69a293.css",
+    "static/js/main.b0ac02d7.js"
+  ]
+}
