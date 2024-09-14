@@ -52,12 +52,12 @@ const InfoCardsAndFeaturedCards = () => {
           </div>
           <CardGallery
             cards={[
-              <img src='/images/plant1.jpg' alt='some_photo'/>,
-              <img src='/images/plant2.jpg' alt='some_photo'/>,
-              <img src='/images/plant3.jpg' alt='some_photo'/>,
-              <img src='/images/plant4.jpg' alt='some_photo'/>,
-              <img src='/images/plant5.jpg' alt='some_photo'/>,
-              <img src='/images/plant6.jpg' alt='some_photo'/>,
+              <img src='images/plant1.jpg' alt='some_photo'/>,
+              <img src='images/plant2.jpg' alt='some_photo'/>,
+              <img src='images/plant3.jpg' alt='some_photo'/>,
+              <img src='images/plant4.jpg' alt='some_photo'/>,
+              <img src='images/plant5.jpg' alt='some_photo'/>,
+              <img src='images/plant6.jpg' alt='some_photo'/>,
             ]}
           />
         </div>

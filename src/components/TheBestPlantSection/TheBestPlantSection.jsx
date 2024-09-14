@@ -4,7 +4,7 @@ const TheBestPlantSection = () => {
   return (
     <div className='best-plant__section-wrapper section'>
       <div className='section-container'>
-        <img src='/images/chinize-money-plant.png' className='section-plant__image'></img>
+        <img src='images/chinize-money-plant.png' className='section-plant__image'></img>
         <div className='section-info__wrapper info'>
           <h2 className='info-title'>Chinese Money Plant</h2>
           <p className='info-description'>
