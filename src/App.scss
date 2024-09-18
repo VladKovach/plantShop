@@ -31,11 +31,11 @@ button {
   cursor: pointer;
 }
 @font-face {
-  font-family: 'Poppins';
+  font-family: "Poppins";
   src: url(fonts/Poppins/Poppins-Medium.ttf);
 }
 @font-face {
-  font-family: 'Inter';
+  font-family: "Inter";
   src: url(fonts/Inter/Inter-Medium.ttf);
 }
 html,
@@ -47,6 +47,20 @@ body {
   font-family: Poppins;
   position: relative;
   overflow-x: hidden;
+}
+button{
+  background: none;
+}
+input:focus,
+textarea:focus,
+button:focus,a,
+button {
+  outline: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent; /* Disable the tap highlight color */
 }
 .wrapper {
   min-height: 100%;

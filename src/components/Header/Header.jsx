@@ -20,10 +20,10 @@ const Header = ({ burgerActive, setBurgerActive }) => {
           <h2>Contact</h2>
         </div>
 
-        <div
+        <button
           onClick={() => {
             console.log('click')
-            setBurgerActive(!burgerActive)
+            setBurgerActive(!burgerActive) 
           }}
           className={
             burgerActive ? 'header-burger__menu burger active' : 'header-burger__menu burger'
@@ -32,7 +32,7 @@ const Header = ({ burgerActive, setBurgerActive }) => {
           <span className='burger-line1'></span>
           <span className='burger-line2'></span>
           <span className='burger-line3'></span>
-        </div>
+        </button>
         <div className='header-btns__section'>
           <div className='header-btns__section-search'>
             <GetSvg svg={'search'} />
