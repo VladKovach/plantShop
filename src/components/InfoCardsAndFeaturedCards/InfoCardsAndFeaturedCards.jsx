@@ -2,6 +2,13 @@ import React from 'react'
 import './infoCardsAndFeaturedCards.scss'
 import GetSvg from '../GetSvg/GetSvg'
 import CardGallery from '../CardGallery/CardGallery'
+import plant1 from '../../assets/images/plant1.jpg'
+import plant2 from '../../assets/images/plant2.jpg'
+import plant3 from '../../assets/images/plant3.jpg'
+import plant4 from '../../assets/images/plant4.jpg'
+import plant5 from '../../assets/images/plant5.jpg'
+import plant6 from '../../assets/images/plant6.jpg'
+
 const InfoCardsAndFeaturedCards = () => {
   return (
     <div className='info-cards__andFeatured-wrapper cards'>
@@ -52,12 +59,12 @@ const InfoCardsAndFeaturedCards = () => {
           </div>
           <CardGallery
             cards={[
-              <img src='/images/plant1.jpg' alt='some_photo'/>,
-              <img src='/images/plant2.jpg' alt='some_photo'/>,
-              <img src='/images/plant3.jpg' alt='some_photo'/>,
-              <img src='/images/plant4.jpg' alt='some_photo'/>,
-              <img src='/images/plant5.jpg' alt='some_photo'/>,
-              <img src='/images/plant6.jpg' alt='some_photo'/>,
+              <img src={plant1} alt='some_photo'/>,
+              <img src={plant2} alt='some_photo'/>,
+              <img src={plant3} alt='some_photo'/>,
+              <img src={plant4} alt='some_photo'/>,
+              <img src={plant5} alt='some_photo'/>,
+              <img src={plant6} alt='some_photo'/>,
             ]}
           />
         </div>
