@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/plantShop/static/css/main.ee5a2b5f.css",
-    "main.js": "/plantShop/static/js/main.82cc591d.js",
+    "main.css": "/plantShop/static/css/main.d11583b4.css",
+    "main.js": "/plantShop/static/js/main.0cb25fae.js",
     "static/media/main-plant-picture.jpg": "/plantShop/static/media/main-plant-picture.f98d0b9fe01b000684db.jpg",
     "static/media/Inter-Medium.ttf": "/plantShop/static/media/Inter-Medium.6dcbc9bed1ec438907ee.ttf",
     "static/media/Poppins-Medium.ttf": "/plantShop/static/media/Poppins-Medium.673ed42382ab264e0bf5.ttf",
     "static/media/backGround-forDiscount.jpg": "/plantShop/static/media/backGround-forDiscount.7f765304ce0016aeb76c.jpg",
     "index.html": "/plantShop/index.html",
-    "main.ee5a2b5f.css.map": "/plantShop/static/css/main.ee5a2b5f.css.map",
-    "main.82cc591d.js.map": "/plantShop/static/js/main.82cc591d.js.map"
+    "main.d11583b4.css.map": "/plantShop/static/css/main.d11583b4.css.map",
+    "main.0cb25fae.js.map": "/plantShop/static/js/main.0cb25fae.js.map"
   },
   "entrypoints": [
-    "static/css/main.ee5a2b5f.css",
-    "static/js/main.82cc591d.js"
+    "static/css/main.d11583b4.css",
+    "static/js/main.0cb25fae.js"
   ]
 }
