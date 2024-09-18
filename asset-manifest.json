@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/plantShop/static/css/main.d11583b4.css",
-    "main.js": "/plantShop/static/js/main.31057c4f.js",
+    "main.js": "/plantShop/static/js/main.67ee0e3b.js",
     "static/media/main-plant-picture.jpg": "/plantShop/static/media/main-plant-picture.f98d0b9fe01b000684db.jpg",
     "static/media/Inter-Medium.ttf": "/plantShop/static/media/Inter-Medium.6dcbc9bed1ec438907ee.ttf",
     "static/media/chinize-money-plant.png": "/plantShop/static/media/chinize-money-plant.f7f0c393b94cfdef86b6.png",
@@ -15,10 +15,10 @@
     "static/media/plant5.jpg": "/plantShop/static/media/plant5.0f0327c4c7451de82120.jpg",
     "index.html": "/plantShop/index.html",
     "main.d11583b4.css.map": "/plantShop/static/css/main.d11583b4.css.map",
-    "main.31057c4f.js.map": "/plantShop/static/js/main.31057c4f.js.map"
+    "main.67ee0e3b.js.map": "/plantShop/static/js/main.67ee0e3b.js.map"
   },
   "entrypoints": [
     "static/css/main.d11583b4.css",
-    "static/js/main.31057c4f.js"
+    "static/js/main.67ee0e3b.js"
   ]
 }
