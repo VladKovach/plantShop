@@ -2,6 +2,12 @@ import React from "react";
 import "./popularProducts.scss";
 import GalleryItem from "../GalleryItem/GalleryItem";
 import GetSvg from "../GetSvg/GetSvg";
+import plant1 from "../../assets/images/plant1.jpg";
+import plant2 from "../../assets/images/plant2.jpg";
+import plant3 from "../../assets/images/plant3.jpg";
+import plant4 from "../../assets/images/plant4.jpg";
+import plant5 from "../../assets/images/plant5.jpg";
+import plant6 from "../../assets/images/plant6.jpg";
 const PopularProducts = () => {
   return (
     <div className="popular-products__wrapper popular">
@@ -18,9 +24,9 @@ const PopularProducts = () => {
           </div>
         </div>
         <div className="popular-gallery">
-          <GalleryItem name={"Azalea Plant"} price={"$150.00"} img={"images/plant1.jpg"} />
+          <GalleryItem name={"Azalea Plant"} price={"$150.00"} img={plant1} />
           <div className="popular-gallery__img-withIcons">
-            <GalleryItem name={"Indian Basil"} price={"$160.00"} img={"images/plant2.jpg"} />
+            <GalleryItem name={"Indian Basil"} price={"$160.00"} img={plant2} />
             <div className="popular-gallery__img-withIcons__icons">
               <button>
                 <GetSvg svg={"bag-white"} />
@@ -36,10 +42,10 @@ const PopularProducts = () => {
               </button>
             </div>
           </div>
-          <GalleryItem name={"Spider Plant"} price={"$140.00"} img={"images/plant3.jpg"} />
-          <GalleryItem name={"Azalea Plant"} price={"$150.00"} img={"images/plant5.jpg"} />
-          <GalleryItem name={"Indian Basil"} price={"$160.00"} img={"images/plant6.jpg"} />
-          <GalleryItem name={"Spider Plant"} price={"$140.00"} img={"images/plant4.jpg"} />
+          <GalleryItem name={"Spider Plant"} price={"$140.00"} img={plant3} />
+          <GalleryItem name={"Azalea Plant"} price={"$150.00"} img={plant5} />
+          <GalleryItem name={"Indian Basil"} price={"$160.00"} img={plant6} />
+          <GalleryItem name={"Spider Plant"} price={"$140.00"} img={plant4} />
         </div>
       </div>
       <img src="images/plant-backGround2.png" alt="" className="popular-backGround2__image" />
