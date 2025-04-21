@@ -1,6 +1,10 @@
 import React from 'react'
 import './mainSection1.scss'
 const MainSection1 = ({ needDropDowm, burgerActive }) => {
+  console.log('needDropDowm = ', needDropDowm);
+  console.log('burgerActive = ', burgerActive);
+  
+  
   return (
     <div className='main-section1__wrapper section1'>
       <img className='section1-overPage__img' src="images/plant-overPage.png" alt="" />

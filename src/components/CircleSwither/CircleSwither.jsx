@@ -1,28 +1,29 @@
-import React from 'react'
-import './circleSwither.scss'
-import GetSvg from '../GetSvg/GetSvg'
+import React from "react";
+import "./circleSwither.scss";
+import GetSvg from "../GetSvg/GetSvg";
 const CircleSwither = ({ circlesStatus, setCircleStatus }) => {
   const circles = circlesStatus.map((active, index) =>
     active ? (
-      <button>
-        <GetSvg svg={'circle-active'} />
+      <button key={index}>
+        <GetSvg svg={"circle-active"} />
       </button>
     ) : (
       <button
+        key={index}
         onClick={() => {
-          const newStatus = circlesStatus.map((status) => (status = false))
+          const newStatus = circlesStatus.map((status) => (status = false));
 
-          newStatus[index] = true
-          console.log(circlesStatus)
-          setCircleStatus(newStatus)
+          newStatus[index] = true;
+          console.log(circlesStatus);
+          setCircleStatus(newStatus);
         }}
       >
-        <GetSvg svg={'circle'} />
+        <GetSvg svg={"circle"} />
       </button>
     )
-  )
+  );
 
-  return <div className='circles-container'>{circles}</div>
-}
+  return <div className="circles-container">{circles}</div>;
+};
 
-export default CircleSwither
+export default CircleSwither;

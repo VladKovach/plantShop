@@ -3,7 +3,7 @@ import React from 'react'
 const GetCustomersFotos = ({ customersFotos, fotosStatus }) => {
   const curentFotosIndex = fotosStatus.indexOf(true)
   const customersImages = customersFotos[curentFotosIndex].map((imageSrc, index) => (
-    <img className={`image-${index + 1}`} src={imageSrc} />
+    <img key={imageSrc} className={`image-${index + 1}`} src={imageSrc} />
   ))
   return (
     <div className='customers-fotos__container image'>
